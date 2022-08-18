@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+}
+button{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    border: 3px solid black;
+    background: rgb(227, 60, 88);
+    color: white;
+    box-shadow: 2px 2px 3px gray;
+    border-radius: 20px;
+    padding: 7px 25px;
+    display: inline-block;
+    cursor: pointer;
+}
+button:hover {
+    background: rgb(33, 202, 152);
+    color: black;
+    box-shadow: 2px 2px 3px rgb(5, 80, 33)
+}
+#save-el {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-weight: bold;
+      font-style: oblique;
+}     
+.container {
+    border: 5px outset black;
+    background-image: url(pexels-miguel-á-padriñán-255379.jpg);
+    text-align: center;
+    height: 460px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 80px;
+  }
